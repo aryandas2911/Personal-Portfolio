@@ -1,11 +1,19 @@
+import Sidebar from "../Sidebar/Sidebar";
 import "./Navbar.scss";
+import { motion } from "framer-motion";
 
 function Navbar() {
   return (
     <div className="navbar">
-      {/* Sidebar */}
+      <Sidebar />
       <div className="wrapper">
-        <span>PORTFOLIO</span>
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          PORTFOLIO
+        </motion.span>
         <div className="socials">
           <a href="">
             <img src="./facebook.png" alt="" />
