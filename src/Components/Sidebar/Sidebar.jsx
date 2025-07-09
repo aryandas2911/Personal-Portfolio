@@ -33,7 +33,7 @@ function Sidebar() {
       variants={variants}
     >
       <motion.div className="bg" variants={variants}>
-        <Links />
+        <Links open={open} />
       </motion.div>
       <Togglebutton open={open} setOpen={setOpen} />
     </motion.div>
