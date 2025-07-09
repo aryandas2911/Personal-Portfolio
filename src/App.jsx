@@ -1,4 +1,5 @@
 import "./App.scss";
+import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <section id="Homepage">
         <Navbar />
+        <Hero />
       </section>
       <section>Parallax</section>
       <section id="Skills">Skills</section>

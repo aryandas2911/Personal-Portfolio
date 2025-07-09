@@ -3,6 +3,19 @@ import "./Navbar.scss";
 import { motion } from "framer-motion";
 
 function Navbar() {
+  const containerVariants = {
+    animate: {
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const iconVariants = {
+    initial: { opacity: 0, y: -20 },
+    animate: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  };
+
   return (
     <div className="navbar">
       <Sidebar />
@@ -14,20 +27,19 @@ function Navbar() {
         >
           PORTFOLIO
         </motion.span>
-        <div className="socials">
-          <a href="">
-            <img src="./facebook.png" alt="" />
-          </a>
-          <a href="">
-            <img src="./instagram.png" alt="" />
-          </a>
-          <a href="">
-            <img src="./youtube.png" alt="" />
-          </a>
-          <a href="">
-            <img src="./linkedin.png" alt="" />
-          </a>
-        </div>
+
+        <motion.div
+          className="socials"
+          variants={containerVariants}
+          initial="initial"
+          animate="animate"
+        >
+          {["facebook", "instagram", "youtube", "linkedin"].map((icon) => (
+            <motion.a key={icon} href="" variants={iconVariants}>
+              <img src={`./${icon}.png`} alt={icon} />
+            </motion.a>
+          ))}
+        </motion.div>
       </div>
     </div>
   );
