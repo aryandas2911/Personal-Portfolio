@@ -1,12 +1,58 @@
-# React + Vite
+# 🧠 Personal Portfolio — React + Framer Motion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive developer portfolio built with **React** and **Framer Motion**, featuring scroll-based animations, a sticky progress bar, and a clean, responsive layout. This project showcases my key development projects in a visually engaging way, with smooth animations and a modular code structure.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Scroll-based parallax animations using `framer-motion`
+- 🧠 Project cards with dynamic image/text transitions
+- 📊 Sticky scroll progress indicator
+- 💅 Fully responsive layout (CSS/SASS-based)
+- 💼 Optimized for showcasing multiple projects
+- 📁 Easily extensible for new projects or sections
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Functional Components, Hooks)
+- **Framer Motion** (`useScroll`, `useTransform`, `motion.div`)
+- **SASS / SCSS** for modular styling
+- **Vite / CRA** *(depending on your setup)*
+- **Responsive Design Principles**
+
+## 📸 Demo Preview
+
+ ![preview1](./preview1.png)  ![preview2](./preview2.png)  ![preview3](./preview3.png)
+
+
+## 📂 Folder Structure
+src/
+│
+├── components/
+│ └── Portfolio/
+│ ├── Portfolio.jsx
+│ └── Portfolio.scss
+│
+├── assets/ # All static images (optional)
+├── App.jsx
+└── main.jsx
+
+
+## 📦 Setup Instructions
+
+1. **Clone the repo:**
+
+    ```bash
+    git clone https://github.com/aryandas2911/Personal-Portfolio
+    cd personal-portfolio
+    npm install
+    npm run dev
+
+## 📌 Projects Featured
+
+1. MediVault – Unified digital health wallet using Supabase, React & Bolt AI
+2. RePlate – Hackathon project solving food waste logistics
+3. SwasthSetu – Volunteer-powered medical access platform
+4. GradientFlow – React gradient UI preview tool
+
+## 🤝 Contributing
+While this is a personal project, feel free to fork and customize it for your own portfolio.
