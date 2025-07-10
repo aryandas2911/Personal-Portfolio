@@ -51,7 +51,9 @@ function Skills() {
             <motion.b whileHover={{ color: "orange" }}>experiences</motion.b>{" "}
             with code, AI.
           </h1>
-          <button>PROJECTS</button>
+          <button>
+            <a href="#Projects">PROJECTS</a>
+          </button>
         </div>
       </motion.div>
       <motion.div
@@ -69,7 +71,9 @@ function Skills() {
             I build responsive user interfaces using React.js, HTML, SCSS, CSS,
             JS and Bootstrap, with pixel-perfect UI with smooth animations.
           </p>
-          <button>Go</button>
+          <button>
+            <a href="https://github.com/aryandas2911">Go</a>
+          </button>
         </motion.div>
         <motion.div
           className="box"
@@ -80,7 +84,9 @@ function Skills() {
             I develop scalable backends with MySQL and PostgreSQL. I integrate
             APIs efficiently, ensuring fast and secure data transactions.
           </p>
-          <button>Go</button>
+          <button>
+            <a href="https://github.com/aryandas2911">Go</a>
+          </button>
         </motion.div>
         <motion.div
           className="box"
@@ -91,7 +97,9 @@ function Skills() {
             I explore AI tools and machine learning models to build smart web
             experiences, proficient in Python and libraries.
           </p>
-          <button>Go</button>
+          <button>
+            <a href="https://github.com/aryandas2911">Go</a>
+          </button>
         </motion.div>
         <motion.div
           className="box"
@@ -102,7 +110,9 @@ function Skills() {
             I use Framer Motion to design clean, intuitive user experiences with
             interactive animations that bring interfaces to life.
           </p>
-          <button>Go</button>
+          <button>
+            <a href="https://github.com/aryandas2911">Go</a>
+          </button>
         </motion.div>
       </motion.div>
     </motion.div>

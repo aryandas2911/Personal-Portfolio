@@ -23,14 +23,7 @@ function Links({ open }) {
     },
   };
 
-  const links = [
-    "Homepage",
-    "Skills",
-    "Portfolio1",
-    "Portfolio2",
-    "Portfolio3",
-    "Contact",
-  ];
+  const links = ["Homepage", "Skills", "Projects", "Contact"];
 
   return (
     <motion.div
